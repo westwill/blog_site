@@ -155,17 +155,7 @@ nav > li > a {
 
 /* card post */
 
-/* using  flex */
-/* .post-container {
-  display: flex;
-  flex-wrap: wrap;
-}
-.post-container div {
-  border: 1px solid #e8e8ea;
-  background-color: #ffffff;
-  flex: 1 200px;
-  margin: 7px;
-} */
+
 /* using grid */
 .post-container{
   display: grid;
@@ -315,10 +305,14 @@ hr{
 
 
 
+
+
+/* MEDIA QUERY */
+
 @media screen and (max-width: 400px) {
   .header-container{
     border: 2px solid;
-    width: 200%;
+    width: 250%;
     top: 0px;
     position: sticky;
     z-index: 999;
@@ -330,11 +324,12 @@ hr{
     align-items: center;
     justify-content: space-between;
     background-color: #ffffff;
-    gap: ;
   }
   .banner-container{
-    width: 210%;
+    width: 260%;
+    background-color: #91929d;
   }
+  
   .secondary-container {
     width: 100%;
     /* height:30%; */
@@ -343,7 +338,7 @@ hr{
     border: 1px solid;
     border-radius: 10px;
     position: absolute;
-    top: 300px;
+    top: 450px;
     left: 13%;
     box-shadow: -1px -1px 20px;
     z-index: auto;
@@ -351,6 +346,8 @@ hr{
   .ads-container{
     width: 100%;
     margin-left: 200px;
+    white-space: nowrap;
+    border: 1px solid;
   }
   .search-bar{
     display: none;
@@ -367,6 +364,10 @@ hr{
   }
   .last{
     display: none;
+  }
+  .imaag{
+    /* padding-bottom: 60%; */
+    /* width: 990px; */
   }
 
 }

@@ -353,6 +353,21 @@ hr{
 }
 
 
-@media screen and (max-width: 391px) {
-  
+@media screen and (min-width: 400px) {
+  .banner-container{
+    margin-top: -19%;
+  }
+  .secondary-container {
+    top: 550px;
+  }
+  .ads-container{
+    margin-top: -10%;
+    width: 100%;
+  }
+  .post-container{
+    grid-template-columns: repeat(2, 512px);
+  }
+  footer{
+    width: 260%;
+  }
 }
